@@ -1,0 +1,116 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font:16px "Trebuchet MS", Helvetica, sans-serif;
+	background-color: #e6e6e6;
+}
+
+h2 {
+	color: #f7b600;
+}
+
+hr {
+	border-bottom: 1px dotted #e6e6e6;
+	border-top: none;
+}
+
+a {
+	text-decoration: none;
+	color: #f7b600;
+}
+
+ a:hover {
+	text-decoration: underline;
+}
+
+.cinza {
+	color: #4e4e4e;
+}
+
+/*--------Cabeçalho---------*/
+
+#cabecalho {
+	background-color: #f7b600;
+	text-align: center;
+	padding: 10px;
+	color: #FFF;
+}
+
+#logo,#menu {
+	padding: 10px;
+}
+
+#cabecalho a{
+	text-decoration: none;
+	color: #FFF;
+	padding: 10px;
+}
+
+#cabecalho a:visited {
+	color: #FFF;
+}
+
+#cabecalho a:hover {
+	background-color: #FFF;
+	color: #f7b600; 
+}
+
+/*--------Cabeçalho Fim---------*/
+
+/*--------Corpo---------*/
+
+#principal {
+	width: 920px;
+	margin: 20px auto 0px auto;
+}
+
+#postagens {
+	width: 640px;
+	float: left;
+}
+
+.postagem {
+	background-color: #FFF;
+	margin-bottom: 20px;
+	padding: 10px;
+}
+
+.data-post {
+	font-size: 0.8em;
+	border-bottom: 1px solid #e6e6e6;
+	margin-bottom: 10px;
+	padding-bottom: 5px;
+}
+
+.menu-lateral {
+	padding: 10px;
+	margin-bottom: 20px;
+	background-color: #FFF;
+}
+
+.titulo-menu-lateral {
+	background-color: #CCCCCC;
+	padding: 5px;
+	color: #4E4E4E;
+	margin-bottom: 5px;
+}
+
+.conteudo-menu-lateral {
+	padding: 5px 0px;
+}
+
+#menu-lateral-principal {
+	width: 250px;
+	float: right;
+
+}
+
+#rodape {
+	clear: both;
+	background-color: #CCCCCC;
+	text-align: center;
+	padding: 10px;
+}
