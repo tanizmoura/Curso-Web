@@ -1,0 +1,191 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #FFF url('../imagens/bg.png');
+	margin: 15px;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+}
+
+#container {
+	background: #ede9cc url('../imagens/bg-container.png') top center repeat-y;
+	min-width: 740px;
+	max-width: 1135px;
+	margin: 0 auto;
+}
+
+#topo {
+	background:#dbcd87;
+	height: 15.4em;
+	min-height: 250px;
+	position: relative;
+}
+
+#area-logo {
+	background:url('../imagens/topo-imagem-principal.png') no-repeat;
+	width: 100%;
+	height: 250px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+
+#area-logo #logo a {
+	position: absolute;
+	width: 151px;
+	height: 66px;
+	background: url('../imagens/logo.png') no-repeat;
+	z-index: 3;
+	top: 15px;
+	left: 15px;
+	text-indent: -9000px;
+}
+
+#area-lateral-topo {
+	background:url('../imagens/topo-imagem-lateral.png') no-repeat;;
+	width: 400px;
+	height: 250px;
+	position: absolute;
+	top: 0;
+	right:0;
+	z-index: 1;
+}
+
+#conteudo-lateral-topo {
+	margin:15px 15px 15px 85px;
+}
+
+#menu-topo ul#navegacao {
+	float: left;
+	margin-top: 15px;
+}
+
+ul#navegacao a {
+	text-transform: uppercase;
+	font-size: 0.8em;
+	line-height: 30px;
+	color: #6E672C;
+	padding: 5px;
+
+}
+
+ul#navegacao a:hover {
+	background-color: #FDF6BE;
+}
+
+img.depoimento {
+	position: absolute;
+	top: 70px;
+	right: 5px;
+}
+
+#menu-locais {
+	padding-bottom: 5px;
+	padding-top: 5px;
+	border-bottom: 1px solid #A29750;
+	border-top: 1px solid #A29750;
+}
+
+#menu-locais .locais {
+	line-height: 25px;
+	font-size: 0.7em;
+	float: left;
+	color: #8b8448;
+	
+}
+
+#menu-locais a.reserva {
+	font-size: 0.8em;
+	float: right;
+	color: #fff5b0;
+	text-transform: uppercase;
+	background-color: #A29750;
+	padding: 5px 10px 5px 10px;
+
+}
+
+#conteudo-principal {
+	background: url('../imagens/bg-area-principal.png') top left repeat-x;
+	padding: 15px 0;
+	width: 50%;
+	float: left;
+}
+
+h2 {
+	padding: 5px 0;
+	color:#7D7640;
+}
+
+p {
+	padding: 5px 0;
+}
+
+#conteudo-lateral {
+	background: url('../imagens/bg-area-lateral.png') top left repeat-x;
+	padding: 20px 0;
+	width: 50%;
+	float: right;
+}
+
+#lista-beneficios li {
+	width: 98%;
+	padding: 5px;
+	min-height: 100px;
+	min-width:90%;
+	border-bottom: 1px solid #f3efcb;
+	
+}
+
+#lista-beneficios li:hover {
+	background-color: #F6F3D6;
+}
+
+#lista-beneficios li img {
+	float: left;
+	width: 150px;
+	padding-right: 10px;
+}
+
+#lista-beneficios h3 {
+	font-size: 1em;
+	color: #615B2D;
+	padding: 5px 0;
+	background: url('../imagens/ornamento.png') no-repeat top right;
+}
+
+#lista-beneficios p {
+	font-size: 0.9em;
+	color: #000;
+}
+
+
+
+
+.conteudo {
+	width: 90%;
+	margin: 0 auto;
+
+
+}
+
+#rodape-container {
+	clear: both;	
+	background: #FFF url('../imagens/bg-rodape.png') top left repeat-x;
+	padding: 15px;
+}
+
+#rodape {
+
+	color: #7D7669;
+}
