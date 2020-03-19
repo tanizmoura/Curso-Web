@@ -1,0 +1,180 @@
+/***CONFIGURAÇÕES PADRÃO ***/
+
+body {
+	background:#f4f2ec url('../img/fundo.png') repeat-x;
+	font: 12px "Lucida Grande","Lucida Sans Unicode",sans-serif;
+}
+
+a:link, a:visited, a:active {
+	color: #A26710;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #247116;
+}
+
+h3 {
+	text-transform: uppercase;
+	color: #227115;
+	padding-bottom: 10px;
+	margin-top: 10px;
+	
+}
+
+
+h4 {
+	text-transform: uppercase;
+	color: #86521A;
+	padding-bottom: 10px;
+	margin: 0;
+}
+
+header {
+	padding: 15px 0;
+	height: 50px;
+}
+
+#container {
+	width: 1080px;
+	margin: 0 auto;
+	
+}
+
+
+/*** LOGO ***/
+#logo h1 {
+	float: left;
+}
+
+#logo  a {
+	width: 248px;
+	height: 21px;
+	background: url('../img/logo.png');
+	display: block;
+	text-indent: -9999px;
+	
+}
+
+/*** NAVEGAÇÃO **/
+nav ul {
+	float: right;
+	list-style-type: none;
+}
+
+
+nav ul li {
+	float: left;
+	padding-right: 25px;
+}
+
+nav li a {
+	text-transform: uppercase;
+	padding-bottom: 5px;
+}
+
+nav li a:hover {
+	border-bottom: 1px solid #535858;
+}
+
+/*** CONTEUDO PRINCIPAL ***/
+#principal {
+	width: 710px;
+	float: left;
+	margin-bottom: 20px;
+}
+
+/*** CONTEUDO LATERAL ***/
+
+aside {
+	width: 350px;
+	float: right;
+	background-color: #EBE7DD;
+	padding-bottom: 30px;
+	margin-bottom: 20px;
+}
+
+/*** FORMULÁRIO ***/
+
+section#reserva {
+	background-color: #CDC8B1;
+	padding: 20px;
+	margin-top: 10px;
+}
+
+section#reserva input {
+	padding: 5px;
+}
+
+section#reserva fieldset {
+	border:none;
+}
+
+.caixa-texto {
+	border: 1px solid #9B9271;
+	width: 80px;
+}
+
+.botao {
+	width: 100%;
+	height: 40px;
+	color: #FFF;
+	background-color: #9B9271;
+	border:none;
+	padding: 20px;
+	cursor: pointer;
+}
+
+/*** GALERIA ***/
+
+section#galeria {
+	padding: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+section#galeria img {
+	margin: 20px 15px 20px 17px; 
+}
+
+section#galeria a{
+	background: url(../img/fundo-foto.png) no-repeat;
+	width: 126px;
+	height: 133px;
+	display: block;
+	float: left;
+	margin-left: 20px;
+}
+
+/*** CONTEUDO PRINCIPAL ***/
+.padrao-conteudo {
+	float: left;
+	width: 310px;
+}
+
+article#video, article#exposicoes {
+	margin-left: 25px;
+}
+
+article#mapa, article#historia {
+	margin-left: 37px;
+}
+
+/*** RODAPÉ ***/
+footer {
+	clear: both;
+	text-align: center;
+	background: url('../img/fundo-rodape.png') no-repeat center top;
+	padding-bottom: 20px;
+}
+
+footer ul {
+	padding-top: 20px;
+	list-style-type: none;
+}
+
+
+footer ul li {
+	display: inline;
+	padding-right: 15px;
+}
