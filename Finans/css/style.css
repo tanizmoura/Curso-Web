@@ -1,0 +1,17 @@
+#home {
+	background: #FFC107;
+	color: #FFF;
+}
+
+.box {
+	padding: 60px 0;
+	border-bottom: 1px solid #E8E8E8;
+}
+
+footer {
+	padding-top: 10px;
+}
+
+footer p a{
+	margin: 5px 15px;	
+}
