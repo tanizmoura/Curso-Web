@@ -1,5 +1,55 @@
-.mosca1 {
+html {
+	cursor: url(../img/mata_mosca.png) 30 30, auto;
+}
+
+body, html {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	background: url('../img/bg.jpg') no-repeat;
+	background-size: cover;
+	width: 100%;
+}
+
+/** configuração de mosquitos **/
+
+.mosquito1 {
 	width: 50px;
 	height: 50px;
+}
+
+.mosquito2 {
+	width: 70px;
+	height: 70px;
+}
+
+.mosquito3 {
+	width: 90px;
+	height: 90px;
+}
+
+.ladoB {
+	transform: scaleX(-1);
+}
+
+/** criação do painel **/
+
+.painel {
+	width: 190px;
+	background: rgb(255,255,255,0.7);
+	padding: 10px;
 	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+.contador {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.vida, .contador {
+	float: left;
 }
