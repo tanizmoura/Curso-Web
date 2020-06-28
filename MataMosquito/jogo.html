@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Mata Mosquito - Jogo</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<script src="js/game.js"></script>
+	</head>
+
+	<body onresize="limiteAlturaPalco()">
+
+		<div class="painel">
+			<div class="vida">
+				<img id="v1" src="img/coracao_cheio.png">
+				<img id="v2" src="img/coracao_cheio.png">
+				<img id="v3" src="img/coracao_cheio.png">
+			</div>
+
+			<div class="contador">
+				Tempo restante: <span id="cronometro"></span>
+			</div>
+		</div>
+		
+		<script src="js/gerarMosquitos.js"></script>
+	</body>
+</html>
