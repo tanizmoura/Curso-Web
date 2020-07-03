@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+	<head>
+		<meta charset="utf-8">
+
+		<title>Orçamento Pessoal</title>
+
+		<!-- Bootstrap -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+		<!-- FontAwesome -->
+		<script src="https://use.fontawesome.com/releases/v5.13.1/js/all.js"></script>
+
+	</head>
+
+	<body>
+
+		<nav class="navbar bg-primary navbar-expand-lg navbar-dark mb-5"> <!-- Barra de Navegação -->
+			<div class="container">	<!-- Container -->
+
+				<!-- Logo -->
+				<a href="index.html" class="navbar-brand"> 
+					<img src="img/logo.png" width="50" height="35" alt="Orçamento Pessoal">
+				</a>
+
+				<!-- Hamburguer -->
+				<button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#nav-target">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<div id="nav-target" class="collapse navbar-collapse">
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a class="nav-link" href="index.html">Cadastro</a>
+						</li>
+						<li class="nav-item active">
+							<a class="nav-link" href="consulta.html">Consulta</a>
+						</li>
+					</ul>
+				</div>
+				
+			</div>	<!-- /Container -->	
+		</nav> <!--/Barra de Navegação -->
+
+		<div class="container">
+			<div class="row">
+				<div class="col mb-4">
+					<h1 class="display-4">Consulta de despesas</h1>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-2 mt-2">
+					<select class="form-control" id="ano">
+						<option value="">Ano</option>
+						<option value="2020">2020</option>
+					</select>
+				</div>
+
+				<div class="col-md-2 mt-2">
+					<select class="form-control" id="mes">
+						<option value="">Mês</option>
+						<option value="jan">Janeiro</option>
+						<option value="fev">Fevereiro</option>
+						<option value="mar">Março</option>
+						<option value="abr">Abril</option>
+						<option value="mai">Maio</option>
+						<option value="jun">Junho</option>
+						<option value="jul">Julho</option>
+						<option value="ago">Agosto</option>
+						<option value="set">Setembro</option>
+						<option value="out">Outubro</option>
+						<option value="nov">Novembro</option>
+						<option value="dez">Dezembro</option>
+					</select>
+				</div>
+
+				<div class="col-md-2 mt-2">
+					<input class="form-control" type="number" id="data" placeholder="Dia">
+				</div>
+
+				<div class="col-md-6 mt-2">
+					<select class="form-control" id="tipo">
+						<option value="">Tipo</option>
+						<option value="alimentacao">Alimentação</option>
+						<option value="educacao">Educação</option>
+						<option value="lazer">Lazer</option>
+						<option value="saude">Saúde</option>
+						<option value="transporte">Transporte</option>
+					</select>
+				</div>
+	
+			</div>
+
+			<div class="row">
+				<div class="col-md-8 mt-2">
+					<input class="form-control" type="text" id="descricao" placeholder="Descrição">
+				</div>
+
+				<div class="col-md-2 mt-2">
+					<input class="form-control" type="number" id="valor" placeholder="Valor">
+				</div>
+
+				<div class="col-md-2 d-flex justify-content-end mt-2">
+					<button class="btn btn-primary">
+						<i class="fas fa-search"></i>
+					</button>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col">
+					<table class="table mt-5">
+					<thead>
+						<tr>
+							<th>Data</th>
+							<th>Tipo</th>
+							<th>Descrição</th>
+							<th>Valor</th>
+						</tr>
+					</thead>
+
+					<tbody>
+					</tbody>
+				</table>
+				</div>
+			</div>
+		</div>
+
+
+		<!-- Bootstrap JS -->
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>	
+	</body>
+</html>
