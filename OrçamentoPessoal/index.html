@@ -10,6 +10,7 @@
 		<!-- FontAwesome -->
 		<script src="https://use.fontawesome.com/releases/v5.13.1/js/all.js"></script>
 
+		<script src="js/app.js"></script>
 	</head>
 
 	<body>
@@ -59,33 +60,33 @@
 				<div class="col-md-2 mt-2">
 					<select class="form-control" id="mes">
 						<option value="">Mês</option>
-						<option value="jan">Janeiro</option>
-						<option value="fev">Fevereiro</option>
-						<option value="mar">Março</option>
-						<option value="abr">Abril</option>
-						<option value="mai">Maio</option>
-						<option value="jun">Junho</option>
-						<option value="jul">Julho</option>
-						<option value="ago">Agosto</option>
-						<option value="set">Setembro</option>
-						<option value="out">Outubro</option>
-						<option value="nov">Novembro</option>
-						<option value="dez">Dezembro</option>
+						<option value="1">Janeiro</option>
+						<option value="2">Fevereiro</option>
+						<option value="3">Março</option>
+						<option value="4">Abril</option>
+						<option value="5">Maio</option>
+						<option value="6">Junho</option>
+						<option value="7">Julho</option>
+						<option value="8">Agosto</option>
+						<option value="9">Setembro</option>
+						<option value="10">Outubro</option>
+						<option value="11">Novembro</option>
+						<option value="12">Dezembro</option>
 					</select>
 				</div>
 
 				<div class="col-md-2 mt-2">
-					<input class="form-control" type="number" id="data" placeholder="Dia">
+					<input class="form-control" type="number" id="dia" placeholder="Dia">
 				</div>
 
 				<div class="col-md-6 mt-2">
 					<select class="form-control" id="tipo">
 						<option value="">Tipo</option>
-						<option value="alimentacao">Alimentação</option>
-						<option value="educacao">Educação</option>
-						<option value="lazer">Lazer</option>
-						<option value="saude">Saúde</option>
-						<option value="transporte">Transporte</option>
+						<option value="1">Alimentação</option>
+						<option value="2">Educação</option>
+						<option value="3">Lazer</option>
+						<option value="4">Saúde</option>
+						<option value="5">Transporte</option>
 					</select>
 				</div>
 	
@@ -101,7 +102,7 @@
 				</div>
 
 				<div class="col-md-2 d-flex justify-content-end mt-2">
-					<button class="btn btn-primary">
+					<button onclick="cadastrarDespesa()" class="btn btn-primary">
 						<i class="fas fa-plus"></i>
 					</button>
 				</div>
