@@ -37,6 +37,9 @@
 						<li class="nav-item active">
 							<a class="nav-link" href="consulta.html">Consulta</a>
 						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="indicadores.html">Indicadores</a>
+						</li>
 					</ul>
 				</div>
 				
@@ -61,33 +64,33 @@
 				<div class="col-md-2 mt-2">
 					<select class="form-control" id="mes">
 						<option value="">Mês</option>
-						<option value="jan">Janeiro</option>
-						<option value="fev">Fevereiro</option>
-						<option value="mar">Março</option>
-						<option value="abr">Abril</option>
-						<option value="mai">Maio</option>
-						<option value="jun">Junho</option>
-						<option value="jul">Julho</option>
-						<option value="ago">Agosto</option>
-						<option value="set">Setembro</option>
-						<option value="out">Outubro</option>
-						<option value="nov">Novembro</option>
-						<option value="dez">Dezembro</option>
+						<option value="01">Janeiro</option>
+						<option value="02">Fevereiro</option>
+						<option value="03">Março</option>
+						<option value="04">Abril</option>
+						<option value="05">Maio</option>
+						<option value="06">Junho</option>
+						<option value="07">Julho</option>
+						<option value="08">Agosto</option>
+						<option value="09">Setembro</option>
+						<option value="10">Outubro</option>
+						<option value="11">Novembro</option>
+						<option value="12">Dezembro</option>
 					</select>
 				</div>
 
 				<div class="col-md-2 mt-2">
-					<input class="form-control" type="number" id="data" placeholder="Dia">
+					<input class="form-control" type="number" id="dia" placeholder="Dia">
 				</div>
 
 				<div class="col-md-6 mt-2">
 					<select class="form-control" id="tipo">
 						<option value="">Tipo</option>
-						<option value="alimentacao">Alimentação</option>
-						<option value="educacao">Educação</option>
-						<option value="lazer">Lazer</option>
-						<option value="saude">Saúde</option>
-						<option value="transporte">Transporte</option>
+						<option value="1">Alimentação</option>
+						<option value="2">Educação</option>
+						<option value="3">Lazer</option>
+						<option value="4">Saúde</option>
+						<option value="5">Transporte</option>
 					</select>
 				</div>
 	
@@ -103,7 +106,7 @@
 				</div>
 
 				<div class="col-md-2 d-flex justify-content-end mt-2">
-					<button class="btn btn-primary">
+					<button onclick="pesquisarDespesa()" class="btn btn-primary">
 						<i class="fas fa-search"></i>
 					</button>
 				</div>
@@ -121,12 +124,31 @@
 						</tr>
 					</thead>
 
-					<tbody>
+					<tbody id="listaDespesas">
 						
 					</tbody>
 				</table>
 				</div>
 			</div>
+		</div>
+
+		<!-- Modal Gravação -->
+		<div class="modal fade" id="modalGravacao" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		  <div class="modal-dialog" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <h5 class="" id="tituloModal"></h5>
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+		          <span aria-hidden="true">&times;</span>
+		        </button>
+		      </div>
+		      <div class="modal-body" id="descricaoModal">
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" id="btnModal" onclick="window.location.reload()" class="" data-dismiss="modal"></button>
+		      </div>
+		    </div>
+		  </div>
 		</div>
 
 
