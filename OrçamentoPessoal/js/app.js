@@ -107,6 +107,7 @@ function cadastrarDespesa() {
 function carregarDespesas() {
 	let despesas = []
 	despesas = bd.listarDespesas()
+	
 	console.log(despesas)
 
 }
